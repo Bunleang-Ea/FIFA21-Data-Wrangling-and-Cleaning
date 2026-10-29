@@ -6,7 +6,7 @@ This repository demonstrates applied data management, cleaning, and preprocessin
 This project was built to showcase core data engineering competencies, including schema standardization, string manipulation, data type casting, and the development of custom parsing algorithms for mixed-format data.
 
 ## Dataset
-The data used in this project is the **FIFA 21 Messy Dataset** sourced from Kaggle. It contains 77 features (columns) for 18,979 players, originally riddled with inconsistent data types, hidden text artifacts, mixed measurement units, and redundant characters.
+The data used in this project is the **FIFA 21 Messy Dataset** sourced from [Kaggle](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring). It contains 77 features (columns) for 18,979 players, originally riddled with inconsistent data types, hidden text artifacts, mixed measurement units, and redundant characters.
 
 ## Key Data Management Techniques Applied
 * **Schema Standardization:** Reformatted all 77 column headers to a standardized snake_case format (e.g., stripping whitespaces, replacing spaces with underscores) and mapped ambiguous headers to descriptive names (e.g., `↓ova` to `overall`, `a/w` to `attacking_work_rate`).
@@ -24,7 +24,7 @@ The data used in this project is the **FIFA 21 Messy Dataset** sourced from Kagg
 ## How to Run the Project
 1. Clone this repository to your local machine.
 2. Ensure you have Python and the required libraries installed (`pip install pandas numpy`).
-3. Download the raw data file (`fifa21_raw_data_v2.csv`) and place it in the designated `Data/` directory.
+3. Download the raw data file (`fifa21_raw_data_v2.csv`) from Kaggle and place it in the designated `Data/` directory.
 4. Open `FIFA21_Data_Cleaning.ipynb` in Jupyter Notebook or JupyterLab and execute the cells sequentially.
 
 ## Author
